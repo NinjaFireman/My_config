@@ -1,9 +1,0 @@
-#!/bin/bash
-
-CHKMON=$(xrandr | grep -wo "eDP-1 connected primary")
-
-if [[ -n $CHKMON ]]; then
-	xrandr --output eDP-1 --brightness $(echo "$(xrandr --verbose |grep -m 1 Brightness |grep -o '[0-9].*')$1" | bc)
-else
-        xrandr --output DP-1 --brightness $(echo "$(xrandr --verbose |grep -m 1 Brightness |grep -o '[0-9].*')$1" | bc)
-fi
