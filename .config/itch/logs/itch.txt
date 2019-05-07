@@ -1,0 +1,763 @@
+{"time":1551052811242,"level":30,"msg":"itch@25.4.0 on electron@2.0.8 in production"}
+{"time":1551052811375,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/25.4.0 Chrome/61.0.3163.100 Electron/2.0.8 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1551052811422,"level":20,"msg":"Updating login item settings, open=false, hidden=false","name":"m/reac/open-at-login"}
+{"time":1551052811423,"level":20,"msg":"Copying /usr/share/applications/io.itch.itch.desktop => /home/ricardo/.config/autostart/io.itch.itch.desktop","name":"m/reac/open-at-login"}
+{"time":1551052811504,"level":30,"msg":"preboot ran in 136.00ms","name":"m/reac/preboot"}
+{"time":1551052811505,"level":20,"msg":"Waiting on root window to dispatch boot","name":"m/reac/winds"}
+{"time":1551052811866,"level":30,"msg":"Setup starting...","name":"🔧 setup"}
+{"time":1551052811868,"level":30,"msg":"Creating broth manager","name":"🔧 setup"}
+{"time":1551052811870,"level":30,"msg":"Ensuring broth dependencies, for startup","name":"🔧 setup"}
+{"time":1551052811872,"level":20,"msg":"Package (itch) got version prefix","name":"🔧 setup"}
+{"time":1551052811878,"level":30,"msg":"No chosen version, attempting install...","name":"📦 butler"}
+{"time":1551052811879,"level":20,"msg":"Trying to satisfy semver constraint (^15.0.1)","name":"📦 butler"}
+{"time":1551052811879,"level":20,"msg":"GET (https://broth.itch.ovh/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1551052812429,"level":30,"msg":"Latest is (15.8.0)","name":"📦 butler"}
+{"time":1551052812439,"level":40,"msg":"Sanity check failed: spawn /home/ricardo/.config/itch/broth/butler/versions/15.8.0/butler ENOENT","name":"📦 butler"}
+{"time":1551052812443,"level":30,"msg":"Downloading (butler)@(15.8.0)","name":"📦 butler"}
+{"time":1551052812443,"level":30,"msg":"...from (https://broth.itch.ovh/butler/linux-amd64/15.8.0/butler.zip)","name":"📦 butler"}
+{"time":1551052812443,"level":30,"msg":"...to (/home/ricardo/.config/itch/broth/butler/downloads/butler.zip)","name":"📦 butler"}
+{"time":1551052813403,"level":30,"msg":"HTTP 200 https://broth.itch.ovh/butler/linux-amd64/15.8.0/butler.zip","name":"📦 butler"}
+{"time":1551052813908,"level":30,"msg":"17.2% done, eta 5.0s @ 1.5 MiB/s","name":"📦 butler"}
+{"time":1551052814406,"level":30,"msg":"36.8% done, eta 3.0s @ 2.2 MiB/s","name":"📦 butler"}
+{"time":1551052814410,"level":20,"msg":"Downloading fresh locale file from https://locales.itch.ovh/itch/en.json","name":"m/reac/locales"}
+{"time":1551052814906,"level":30,"msg":"56.3% done, eta 2.0s @ 2.5 MiB/s","name":"📦 butler"}
+{"time":1551052815408,"level":30,"msg":"75.9% done, eta 1.0s @ 2.7 MiB/s","name":"📦 butler"}
+{"time":1551052815908,"level":30,"msg":"95.5% done, eta 0.0s @ 2.8 MiB/s","name":"📦 butler"}
+{"time":1551052816024,"level":30,"msg":"100.0% done, eta 0.0s @ 2.9 MiB/s","name":"📦 butler"}
+{"time":1551052816030,"level":30,"msg":"Downloaded 8.8 MiB / 8.8 MiB (9259809 bytes)","name":"📦 butler"}
+{"time":1551052816031,"level":30,"msg":"Extracting...","name":"📦 butler"}
+{"time":1551052816043,"level":20,"msg":"Total zip entries: 3","name":"📦 butler"}
+{"time":1551052816044,"level":20,"msg":".zip filesize: 9259809","name":"📦 butler"}
+{"time":1551052816050,"level":20,"msg":"→ 7z.so","name":"📦 butler"}
+{"time":1551052816056,"level":30,"msg":"Extracting /home/ricardo/.config/itch/broth/butler/versions/15.8.0/7z.so","name":"📦 butler"}
+{"time":1551052816098,"level":20,"msg":"HTTP GET https://locales.itch.ovh/itch/en.json: 200","name":"m/reac/locales"}
+{"time":1551052816099,"level":20,"msg":"Saving fresh en locale to /home/ricardo/.config/itch/locales/en.json","name":"m/reac/locales"}
+{"time":1551052816189,"level":20,"msg":"→ butler","name":"📦 butler"}
+{"time":1551052816190,"level":30,"msg":"Extracting /home/ricardo/.config/itch/broth/butler/versions/15.8.0/butler","name":"📦 butler"}
+{"time":1551052816491,"level":20,"msg":"→ libc7zip.so","name":"📦 butler"}
+{"time":1551052816491,"level":30,"msg":"Extracting /home/ricardo/.config/itch/broth/butler/versions/15.8.0/libc7zip.so","name":"📦 butler"}
+{"time":1551052816496,"level":30,"msg":"Validating...","name":"📦 butler"}
+{"time":1551052816590,"level":30,"msg":"Validated!","name":"📦 butler"}
+{"time":1551052816591,"level":30,"msg":"Marking (15.8.0) as chosen version","name":"📦 butler"}
+{"time":1551052816594,"level":30,"msg":"Switching to (15.8.0)","name":"📦 butler"}
+{"time":1551052816626,"level":20,"msg":"Package (butler) got version prefix","name":"🔧 setup"}
+{"time":1551052816627,"level":30,"msg":"Refreshing butlerd!","name":"🔧 setup"}
+{"time":1551052816627,"level":30,"msg":"Spinning up butlerd instance 1...","name":"🔧 setup"}
+{"time":1551052816633,"level":30,"msg":"...waiting for endpoint from butlerd instance 1...","name":"🔧 setup"}
+{"time":1551052816639,"level":20,"msg":"Present versions: 15.8.0","name":"📦 butler"}
+{"time":1551052816640,"level":30,"msg":"No chosen version, attempting install...","name":"📦 itch-setup"}
+{"time":1551052816640,"level":30,"msg":"No valid version, but not required at startup. Skipping","name":"📦 itch-setup"}
+{"time":1551052816640,"level":30,"msg":"Never set up 25.4.0 successfully before, forcing components upgrade check","name":"🔧 setup"}
+{"time":1551052816641,"level":40,"msg":"itch-setup: no prefix (not installed yet?)","name":"📦 self"}
+{"time":1551052816642,"level":20,"msg":"Trying to satisfy semver constraint (^15.0.1)","name":"📦 butler"}
+{"time":1551052816642,"level":20,"msg":"GET (https://broth.itch.ovh/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1551052816655,"level":30,"msg":"...for butlerd instance 1 got endpoint 127.0.0.1:38353","name":"🔧 setup"}
+{"time":1551052816699,"level":30,"msg":"Now speaking with butlerd instance 1, version v15.8.0, built on Jan 22 2019 @ 16:34:46, ref 502077e06dd502c395f3b6e76a9f2ceb40ff12c9, endpoint 127.0.0.1:38353","name":"🔧 setup"}
+{"time":1551052816702,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, cancelling state...","name":"m/reac/down/driver"}
+{"time":1551052816702,"level":20,"msg":"Not cancelling, current phase is 0","name":"m/reac/down/driver-persistent-state"}
+{"time":1551052816702,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, state is cancelled...","name":"m/reac/down/driver"}
+{"time":1551052816703,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1551052816704,"level":20,"msg":"🙏 Downloads.List","name":"mcall"}
+{"time":1551052816931,"level":30,"msg":"Latest is (15.8.0)","name":"📦 butler"}
+{"time":1551052816931,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1551052816934,"level":20,"msg":"Present versions: 15.8.0","name":"📦 butler"}
+{"time":1551052816937,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1551052816937,"level":20,"msg":"GET (https://broth.itch.ovh/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1551052817236,"level":30,"msg":"Latest is (1.17.0)","name":"📦 itch-setup"}
+{"time":1551052817238,"level":20,"msg":"spawning /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup :: --version","name":"📦 itch-setup"}
+{"time":1551052817252,"level":40,"msg":"Sanity check failed: spawn /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup ENOENT","name":"📦 itch-setup"}
+{"time":1551052817256,"level":30,"msg":"Downloading (itch-setup)@(1.17.0)","name":"📦 itch-setup"}
+{"time":1551052817256,"level":30,"msg":"...from (https://broth.itch.ovh/itch-setup/linux-amd64/1.17.0/itch-setup.zip)","name":"📦 itch-setup"}
+{"time":1551052817256,"level":30,"msg":"...to (/home/ricardo/.config/itch/broth/itch-setup/downloads/itch-setup.zip)","name":"📦 itch-setup"}
+{"time":1551052818013,"level":30,"msg":"HTTP 200 https://broth.itch.ovh/itch-setup/linux-amd64/1.17.0/itch-setup.zip","name":"📦 itch-setup"}
+{"time":1551052818517,"level":30,"msg":"36.3% done, eta 2.0s @ 1.7 MiB/s","name":"📦 itch-setup"}
+{"time":1551052819016,"level":30,"msg":"72.4% done, eta 1.0s @ 2.3 MiB/s","name":"📦 itch-setup"}
+{"time":1551052819397,"level":30,"msg":"100.0% done, eta 0.0s @ 2.4 MiB/s","name":"📦 itch-setup"}
+{"time":1551052819397,"level":30,"msg":"Downloaded 4.8 MiB / 4.8 MiB (5025172 bytes)","name":"📦 itch-setup"}
+{"time":1551052819398,"level":30,"msg":"Extracting...","name":"📦 itch-setup"}
+{"time":1551052819398,"level":20,"msg":"Total zip entries: 1","name":"📦 itch-setup"}
+{"time":1551052819399,"level":20,"msg":".zip filesize: 5025172","name":"📦 itch-setup"}
+{"time":1551052819399,"level":20,"msg":"→ itch-setup","name":"📦 itch-setup"}
+{"time":1551052819399,"level":30,"msg":"Extracting /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup","name":"📦 itch-setup"}
+{"time":1551052819471,"level":30,"msg":"Validating...","name":"📦 itch-setup"}
+{"time":1551052819471,"level":20,"msg":"spawning /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup :: --version","name":"📦 itch-setup"}
+{"time":1551052819556,"level":30,"msg":"Validated!","name":"📦 itch-setup"}
+{"time":1551052819556,"level":30,"msg":"Marking (1.17.0) as chosen version","name":"📦 itch-setup"}
+{"time":1551052819557,"level":30,"msg":"Switching to (1.17.0)","name":"📦 itch-setup"}
+{"time":1551052819558,"level":20,"msg":"Package (itch-setup) got version prefix","name":"🔧 setup"}
+{"time":1551052819560,"level":20,"msg":"Present versions: 1.17.0","name":"📦 itch-setup"}
+{"time":1551052819560,"level":20,"msg":"Waiting for butler promise...","name":"🔧 setup"}
+{"time":1551052819561,"level":20,"msg":"Syncing install locations...","name":"🔧 setup"}
+{"time":1551052819561,"level":20,"msg":"🙏 Install.Locations.List","name":"mcall"}
+{"time":1551052819606,"level":20,"msg":"Checking install location appdata...","name":"🔧 setup"}
+{"time":1551052819606,"level":20,"msg":"Synchronizing appdata...","name":"🔧 setup"}
+{"time":1551052819607,"level":20,"msg":"🙏 Install.Locations.Add","name":"mcall"}
+{"time":1551052819651,"level":30,"msg":"Registered 1 install locations with butler","name":"🔧 setup"}
+{"time":1551052819652,"level":20,"msg":"Dispatching setup done!","name":"🔧 setup"}
+{"time":1551052819654,"level":30,"msg":"Setup done","name":"🔧 setup"}
+{"time":1551052819658,"level":20,"msg":"🙏 Fetch.Caves","name":"mcall"}
+{"time":1551052819660,"level":30,"msg":"Scanning install locations for items...","name":"m/reac/silent-location-scan"}
+{"time":1551052819661,"level":20,"msg":"🙏 Install.Locations.Scan","name":"mcall"}
+{"time":1551052819667,"level":20,"msg":"🙏 Profile.List","name":"rcall"}
+{"time":1551052819711,"level":30,"msg":"Using tray image (/home/ricardo/.itch/app-25.4.0/resources/app.asar/src/static/images/tray/itch.png)"}
+{"time":1551052819721,"level":30,"msg":"• Scanning install location /home/ricardo/.config/itch/apps...","name":"m/reac/silent-location-scan"}
+{"time":1551052819721,"level":30,"msg":"No items found","name":"m/reac/silent-location-scan"}
+{"time":1551052819721,"level":30,"msg":"Scan complete.","name":"m/reac/silent-location-scan"}
+{"time":1551052819723,"level":20,"msg":"🙏 Fetch.Caves","name":"mcall"}
+{"time":1551052819723,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551052826386,"level":20,"msg":"spawning /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup :: --appname ::: itch ::: --upgrade","name":"m/brot/itch-setup"}
+{"time":1551052826476,"level":20,"msg":"> 2019/02/24 18:00:26 itch-setup will log to /tmp/itch-setup-log.txt","name":"📦 self"}
+{"time":1551052826477,"level":20,"msg":"> 2019/02/24 18:00:26 =========================================","name":"📦 self"}
+{"time":1551052826477,"level":20,"msg":"> 2019/02/24 18:00:26 itch-setup \"v1.17.0, built on Feb 23 2019 @ 17:17:27, ref 8b2074fd782cd00976193c1a627f31b4e0ec2728\" starting up at \"2019-02-24 18:00:26.4765949 -0600 CST m=+0.003131213\" with arguments:","name":"📦 self"}
+{"time":1551052826477,"level":20,"msg":"> 2019/02/24 18:00:26 \"/home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup\"","name":"📦 self"}
+{"time":1551052826477,"level":20,"msg":"> 2019/02/24 18:00:26 \"--appname\"","name":"📦 self"}
+{"time":1551052826477,"level":20,"msg":"> 2019/02/24 18:00:26 \"itch\"","name":"📦 self"}
+{"time":1551052826477,"level":20,"msg":"> 2019/02/24 18:00:26 \"--upgrade\"","name":"📦 self"}
+{"time":1551052826477,"level":20,"msg":"> 2019/02/24 18:00:26 =========================================","name":"📦 self"}
+{"time":1551052826477,"level":20,"msg":"> 2019/02/24 18:00:26 App name specified on command-line: itch","name":"📦 self"}
+{"time":1551052826477,"level":20,"msg":"> 2019/02/24 18:00:26 Locale:  en-US","name":"📦 self"}
+{"time":1551052826479,"level":20,"msg":"> 2019/02/24 18:00:26 Initializing installer GUI...","name":"📦 self"}
+{"time":1551052826479,"level":20,"msg":"> 2019/02/24 18:00:26 Using GTK UI","name":"📦 self"}
+{"time":1551052826485,"level":20,"msg":"> 2019/02/24 18:00:26 Initializing (itch) multiverse @ (/home/ricardo/.itch)","name":"📦 self"}
+{"time":1551052826485,"level":20,"msg":"> 2019/02/24 18:00:26 (/home/ricardo/.itch)(current = \"25.4.0\", ready = \"\")","name":"📦 self"}
+{"time":1551052827272,"level":20,"msg":"> 2019/02/24 18:00:27 Installed 25.4.0","name":"📦 self"}
+{"time":1551052827272,"level":20,"msg":"> 2019/02/24 18:00:27 Latest    25.4.0","name":"📦 self"}
+{"time":1551052827272,"level":20,"msg":"> 2019/02/24 18:00:27 We're up-to-date!","name":"📦 self"}
+{"time":1551052827277,"level":20,"msg":"Trying to satisfy semver constraint (^15.0.1)","name":"📦 butler"}
+{"time":1551052827277,"level":20,"msg":"GET (https://broth.itch.ovh/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1551052827682,"level":30,"msg":"Latest is (15.8.0)","name":"📦 butler"}
+{"time":1551052827682,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1551052827685,"level":20,"msg":"Present versions: 15.8.0","name":"📦 butler"}
+{"time":1551052827688,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1551052827688,"level":20,"msg":"GET (https://broth.itch.ovh/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1551052827988,"level":30,"msg":"Latest is (1.17.0)","name":"📦 itch-setup"}
+{"time":1551052827989,"level":30,"msg":"Already the active version, nothing to do","name":"📦 itch-setup"}
+{"time":1551052827991,"level":20,"msg":"Present versions: 1.17.0","name":"📦 itch-setup"}
+{"time":1551052831074,"level":30,"msg":"Attempting password login for user kaisword@gmail.com","name":"m/reac/login"}
+{"time":1551052831075,"level":30,"msg":"Doing username/password login...","name":"m/reac/login"}
+{"time":1551052831076,"level":20,"msg":"🙏 Profile.LoginWithPassword","name":"mcall"}
+{"time":1551052831077,"level":20,"msg":"Setting up handlers for TOTP & captcha","name":"m/reac/login"}
+{"time":1551052832289,"level":30,"msg":"Showing captcha","name":"m/reac/login"}
+{"time":1551052841399,"level":30,"msg":"Regularly scheduled check for game updates...","name":"m/reac/updater"}
+{"time":1551052841403,"level":30,"msg":"Scheduling next game update check for Sun Feb 24 2019 18:28:51 GMT-0600 (CST)","name":"m/reac/updater"}
+{"time":1551052841409,"level":20,"msg":"🙏 CheckUpdate","name":"mcall"}
+{"time":1551052841460,"level":30,"msg":"Looking for updates to 0 items...","name":"m/reac/updater"}
+{"time":1551052841460,"level":30,"msg":"...for runtime 64-bit Linux","name":"m/reac/updater"}
+{"time":1551052841460,"level":30,"msg":"✓ Checked 0 entries in 3.313393ms","name":"m/reac/updater"}
+{"time":1551052877346,"level":30,"msg":"Captcha solved","name":"m/reac/login"}
+{"time":1551052879906,"level":30,"msg":"Setting cookies...","name":"m/reac/login"}
+{"time":1551052879975,"level":30,"msg":"Login succeeded, setting up session","name":"m/reac/login"}
+{"time":1551052879975,"level":30,"msg":"Registering itch protocol for session persist:itchio-636466","name":"m/reac/login"}
+{"time":1551052879976,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/25.4.0 Chrome/61.0.3163.100 Electron/2.0.8 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1551052879976,"level":30,"msg":"Restoring tabs...","name":"m/reac/login"}
+{"time":1551052879977,"level":20,"msg":"🙏 Profile.Data.Get","name":"mcall"}
+{"time":1551052880024,"level":30,"msg":"No tabs to restore","name":"m/reac/tab-save"}
+{"time":1551052880024,"level":30,"msg":"Dispatching login succeeded","name":"m/reac/login"}
+{"time":1551052880026,"level":30,"msg":"Fetching owned keys...","name":"m/reac/login"}
+{"time":1551052880026,"level":20,"msg":"🙏 Fetch.ProfileOwnedKeys","name":"mcall"}
+{"time":1551052880033,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551052880037,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1551052880038,"level":20,"msg":"Not paused... current phase: IDLE","name":"m/reac/down/driver"}
+{"time":1551052880038,"level":20,"msg":"IDLE => STARTING","name":"m/reac/down/driver-persistent-state"}
+{"time":1551052880039,"level":20,"msg":"🙏 Downloads.Drive","name":"mcall"}
+{"time":1551052880040,"level":20,"msg":"STARTING => RUNNING","name":"m/reac/down/driver-persistent-state"}
+{"time":1551052880041,"level":30,"msg":"Downloads started","name":"m/reac/down/driver-persistent-state"}
+{"time":1551052880086,"level":30,"msg":"Now driving downloads...","name":"m/reac/down/driver"}
+{"time":1551052880086,"level":30,"msg":"Fetching fresh data...","name":"m/reac/login"}
+{"time":1551052880086,"level":30,"msg":"Fetching page 1","name":"m/reac/login"}
+{"time":1551052880096,"level":20,"msg":"🙏 Fetch.Caves","name":"rcall"}
+{"time":1551052880163,"level":20,"msg":"🙏 Fetch.ProfileOwnedKeys","name":"rcall"}
+{"time":1551052880164,"level":20,"msg":"🙏 Fetch.Caves","name":"rcall"}
+{"time":1551052880269,"level":20,"msg":"🙏 Fetch.ProfileOwnedKeys","name":"rcall"}
+{"time":1551052880315,"level":30,"msg":"Waited 228.924612ms for fetch (non-shared)","name":"m/reac/login"}
+{"time":1551052880317,"level":30,"msg":"Fetched owned keys in 291.00ms","name":"m/reac/login"}
+{"time":1551052880323,"level":40,"msg":"(butlerd) no handler for notification Log (in Fetch.ProfileOwnedKeys convo)","name":"butlerd/make-client"}
+{"time":1551052880531,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551052881465,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551052888420,"level":20,"msg":"Navigating to itch://library/owned ","name":"m/reac/navigation"}
+{"time":1551052888478,"level":20,"msg":"🙏 Fetch.ProfileOwnedKeys","name":"rcall"}
+{"time":1551052889463,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551052890465,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551052892945,"level":20,"msg":"Navigating to itch://featured/ ","name":"m/reac/navigation"}
+{"time":1551052893081,"level":20,"msg":"Loading url 'https://itch.io'","name":"m/reac/web-contents"}
+{"time":1551052893949,"level":20,"msg":"\n","name":"m/reac/web-contents"}
+{"time":1551052893949,"level":20,"msg":"=================================","name":"m/reac/web-contents"}
+{"time":1551052893949,"level":20,"msg":"navigation-entry-committed https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551052893949,"level":20,"msg":"currentIndex 1 pendingIndex -1 inPageIndex -1 inPage false","name":"m/reac/web-contents"}
+{"time":1551052893950,"level":20,"msg":"W|<   about:blank","name":"m/reac/web-contents"}
+{"time":1551052893950,"level":20,"msg":"W|  > https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551052893950,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551052893951,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551052893951,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551052893951,"level":20,"msg":"S| > https://itch.io","name":"m/reac/web-contents"}
+{"time":1551052893951,"level":20,"msg":"pushing webContents title https://itch.io","name":"m/reac/web-contents"}
+{"time":1551052893952,"level":20,"msg":"History grew one, offset is 1","name":"m/reac/web-contents"}
+{"time":1551052893953,"level":20,"msg":"Replacing because previous web url \nabout:blank\n is not current state url \nhttps://itch.io","name":"m/reac/web-contents"}
+{"time":1551052893956,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551052893956,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551052893956,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551052893956,"level":20,"msg":"S| > https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551052894471,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551052895474,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551052896011,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1551052897470,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551052900253,"level":20,"msg":"On window.close: close to tray enabled","name":"m/reac/winds"}
+{"time":1551053636902,"level":30,"msg":"itch@25.4.0 on electron@2.0.8 in production"}
+{"time":1551053636905,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":false,\"closeToTray\":true,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":false,\"lastSuccessfulSetupVersion\":\"25.4.0\",\"importedOldInstallLocations\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1551053637056,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":false,\"closeToTray\":true,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":false,\"lastSuccessfulSetupVersion\":\"25.4.0\",\"importedOldInstallLocations\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1551053637063,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/25.4.0 Chrome/61.0.3163.100 Electron/2.0.8 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1551053637116,"level":20,"msg":"Updating login item settings, open=false, hidden=false","name":"m/reac/open-at-login"}
+{"time":1551053637116,"level":20,"msg":"Copying /usr/share/applications/io.itch.itch.desktop => /home/ricardo/.config/autostart/io.itch.itch.desktop","name":"m/reac/open-at-login"}
+{"time":1551053637185,"level":30,"msg":"preboot ran in 131.00ms","name":"m/reac/preboot"}
+{"time":1551053637211,"level":20,"msg":"Waiting on root window to dispatch boot","name":"m/reac/winds"}
+{"time":1551053637568,"level":30,"msg":"Setup starting...","name":"🔧 setup"}
+{"time":1551053637569,"level":30,"msg":"Creating broth manager","name":"🔧 setup"}
+{"time":1551053637570,"level":30,"msg":"Ensuring broth dependencies, for startup","name":"🔧 setup"}
+{"time":1551053637573,"level":20,"msg":"Package (itch) got version prefix","name":"🔧 setup"}
+{"time":1551053637763,"level":30,"msg":"(15.8.0) is chosen and valid","name":"📦 butler"}
+{"time":1551053637764,"level":30,"msg":"Switching to (15.8.0)","name":"📦 butler"}
+{"time":1551053637765,"level":20,"msg":"Package (butler) got version prefix","name":"🔧 setup"}
+{"time":1551053637765,"level":30,"msg":"Refreshing butlerd!","name":"🔧 setup"}
+{"time":1551053637765,"level":30,"msg":"Spinning up butlerd instance 1...","name":"🔧 setup"}
+{"time":1551053637770,"level":30,"msg":"...waiting for endpoint from butlerd instance 1...","name":"🔧 setup"}
+{"time":1551053637774,"level":20,"msg":"spawning /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup :: --version","name":"📦 itch-setup"}
+{"time":1551053637798,"level":30,"msg":"...for butlerd instance 1 got endpoint 127.0.0.1:39375","name":"🔧 setup"}
+{"time":1551053637877,"level":30,"msg":"(1.17.0) is chosen and valid","name":"📦 itch-setup"}
+{"time":1551053637877,"level":30,"msg":"Switching to (1.17.0)","name":"📦 itch-setup"}
+{"time":1551053637878,"level":30,"msg":"Already set up 25.4.0 once, delaying components upgrade check","name":"🔧 setup"}
+{"time":1551053637878,"level":20,"msg":"Waiting for butler promise...","name":"🔧 setup"}
+{"time":1551053637880,"level":20,"msg":"Package (itch-setup) got version prefix","name":"🔧 setup"}
+{"time":1551053637919,"level":30,"msg":"Now speaking with butlerd instance 1, version v15.8.0, built on Jan 22 2019 @ 16:34:46, ref 502077e06dd502c395f3b6e76a9f2ceb40ff12c9, endpoint 127.0.0.1:39375","name":"🔧 setup"}
+{"time":1551053637920,"level":20,"msg":"Syncing install locations...","name":"🔧 setup"}
+{"time":1551053637921,"level":20,"msg":"🙏 Install.Locations.List","name":"mcall"}
+{"time":1551053637922,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, cancelling state...","name":"m/reac/down/driver"}
+{"time":1551053637922,"level":20,"msg":"Not cancelling, current phase is 0","name":"m/reac/down/driver-persistent-state"}
+{"time":1551053637922,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, state is cancelled...","name":"m/reac/down/driver"}
+{"time":1551053637922,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1551053637923,"level":20,"msg":"🙏 Downloads.List","name":"mcall"}
+{"time":1551053637969,"level":20,"msg":"Dispatching setup done!","name":"🔧 setup"}
+{"time":1551053637970,"level":30,"msg":"Setup done","name":"🔧 setup"}
+{"time":1551053637971,"level":20,"msg":"🙏 Fetch.Caves","name":"mcall"}
+{"time":1551053637973,"level":30,"msg":"Scanning install locations for items...","name":"m/reac/silent-location-scan"}
+{"time":1551053637974,"level":20,"msg":"🙏 Install.Locations.Scan","name":"mcall"}
+{"time":1551053637974,"level":20,"msg":"🙏 Profile.List","name":"rcall"}
+{"time":1551053638041,"level":30,"msg":"Using tray image (/home/ricardo/.itch/app-25.4.0/resources/app.asar/src/static/images/tray/itch.png)"}
+{"time":1551053638062,"level":30,"msg":"• Scanning install location /home/ricardo/.config/itch/apps...","name":"m/reac/silent-location-scan"}
+{"time":1551053638062,"level":30,"msg":"No items found","name":"m/reac/silent-location-scan"}
+{"time":1551053638063,"level":30,"msg":"Scan complete.","name":"m/reac/silent-location-scan"}
+{"time":1551053638073,"level":20,"msg":"🙏 Fetch.Caves","name":"mcall"}
+{"time":1551053638116,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551053638135,"level":20,"msg":"🙏 Profile.List","name":"rcall"}
+{"time":1551053640089,"level":20,"msg":"Downloading fresh locale file from https://locales.itch.ovh/itch/en.json","name":"m/reac/locales"}
+{"time":1551053640585,"level":20,"msg":"HTTP GET https://locales.itch.ovh/itch/en.json: 200","name":"m/reac/locales"}
+{"time":1551053640586,"level":20,"msg":"Saving fresh en locale to /home/ricardo/.config/itch/locales/en.json","name":"m/reac/locales"}
+{"time":1551053640906,"level":30,"msg":"Attempting saved login for profile 636466","name":"m/reac/login"}
+{"time":1551053640909,"level":20,"msg":"🙏 Profile.UseSavedLogin","name":"mcall"}
+{"time":1551053640960,"level":30,"msg":"• Validating credentials...","name":"m/reac/login"}
+{"time":1551053642197,"level":30,"msg":"• Logged in! (online)","name":"m/reac/login"}
+{"time":1551053642198,"level":30,"msg":"Saved login succeeded!","name":"m/reac/login"}
+{"time":1551053642199,"level":30,"msg":"Login succeeded, setting up session","name":"m/reac/login"}
+{"time":1551053642202,"level":30,"msg":"Registering itch protocol for session persist:itchio-636466","name":"m/reac/login"}
+{"time":1551053642202,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/25.4.0 Chrome/61.0.3163.100 Electron/2.0.8 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1551053642203,"level":30,"msg":"Restoring tabs...","name":"m/reac/login"}
+{"time":1551053642204,"level":20,"msg":"🙏 Profile.Data.Get","name":"mcall"}
+{"time":1551053642255,"level":30,"msg":"Dispatching login succeeded","name":"m/reac/login"}
+{"time":1551053642257,"level":30,"msg":"Fetching owned keys...","name":"m/reac/login"}
+{"time":1551053642258,"level":20,"msg":"🙏 Fetch.ProfileOwnedKeys","name":"mcall"}
+{"time":1551053642265,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551053642267,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1551053642267,"level":20,"msg":"Not paused... current phase: IDLE","name":"m/reac/down/driver"}
+{"time":1551053642268,"level":20,"msg":"IDLE => STARTING","name":"m/reac/down/driver-persistent-state"}
+{"time":1551053642269,"level":20,"msg":"🙏 Downloads.Drive","name":"mcall"}
+{"time":1551053642271,"level":20,"msg":"STARTING => RUNNING","name":"m/reac/down/driver-persistent-state"}
+{"time":1551053642272,"level":30,"msg":"Downloads started","name":"m/reac/down/driver-persistent-state"}
+{"time":1551053642328,"level":30,"msg":"Fetching fresh data...","name":"m/reac/login"}
+{"time":1551053642328,"level":30,"msg":"Fetching page 1","name":"m/reac/login"}
+{"time":1551053642330,"level":30,"msg":"Now driving downloads...","name":"m/reac/down/driver"}
+{"time":1551053642404,"level":20,"msg":"🙏 Fetch.Caves","name":"rcall"}
+{"time":1551053642466,"level":30,"msg":"Waited 139.617827ms for fetch (non-shared)","name":"m/reac/login"}
+{"time":1551053642467,"level":30,"msg":"Fetched owned keys in 210.00ms","name":"m/reac/login"}
+{"time":1551053642628,"level":20,"msg":"Loading url 'https://itch.io/'","name":"m/reac/web-contents"}
+{"time":1551053642764,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551053643614,"level":20,"msg":"\n","name":"m/reac/web-contents"}
+{"time":1551053643615,"level":20,"msg":"=================================","name":"m/reac/web-contents"}
+{"time":1551053643615,"level":20,"msg":"navigation-entry-committed https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551053643616,"level":20,"msg":"currentIndex 1 pendingIndex -1 inPageIndex -1 inPage false","name":"m/reac/web-contents"}
+{"time":1551053643616,"level":20,"msg":"W|<   about:blank","name":"m/reac/web-contents"}
+{"time":1551053643616,"level":20,"msg":"W|  > https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551053643617,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551053643617,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551053643618,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551053643618,"level":20,"msg":"S| > https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551053643618,"level":20,"msg":"pushing webContents title https://itch.io","name":"m/reac/web-contents"}
+{"time":1551053643621,"level":20,"msg":"History grew one, offset is 1","name":"m/reac/web-contents"}
+{"time":1551053643621,"level":20,"msg":"web and state point to same URL, doing nothing","name":"m/reac/web-contents"}
+{"time":1551053643621,"level":20,"msg":"Replacing because previous web url \nabout:blank\n is not current state url \nhttps://itch.io/","name":"m/reac/web-contents"}
+{"time":1551053643626,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551053643626,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551053643626,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551053643627,"level":20,"msg":"S| > https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551053645075,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551053646552,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1551053648078,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551053652084,"level":20,"msg":"spawning /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup :: --appname ::: itch ::: --upgrade","name":"m/brot/itch-setup"}
+{"time":1551053652185,"level":20,"msg":"> 2019/02/24 18:14:12 itch-setup will log to /tmp/itch-setup-log.txt","name":"📦 self"}
+{"time":1551053652185,"level":20,"msg":"> 2019/02/24 18:14:12 =========================================","name":"📦 self"}
+{"time":1551053652186,"level":20,"msg":"> 2019/02/24 18:14:12 itch-setup \"v1.17.0, built on Feb 23 2019 @ 17:17:27, ref 8b2074fd782cd00976193c1a627f31b4e0ec2728\" starting up at \"2019-02-24 18:14:12.184390311 -0600 CST m=+0.003316678\" with arguments:","name":"📦 self"}
+{"time":1551053652186,"level":20,"msg":"> 2019/02/24 18:14:12 \"/home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup\"","name":"📦 self"}
+{"time":1551053652186,"level":20,"msg":"> 2019/02/24 18:14:12 \"--appname\"","name":"📦 self"}
+{"time":1551053652186,"level":20,"msg":"> 2019/02/24 18:14:12 \"itch\"","name":"📦 self"}
+{"time":1551053652186,"level":20,"msg":"> 2019/02/24 18:14:12 \"--upgrade\"","name":"📦 self"}
+{"time":1551053652186,"level":20,"msg":"> 2019/02/24 18:14:12 =========================================","name":"📦 self"}
+{"time":1551053652186,"level":20,"msg":"> 2019/02/24 18:14:12 App name specified on command-line: itch","name":"📦 self"}
+{"time":1551053652186,"level":20,"msg":"> 2019/02/24 18:14:12 Locale:  en-US","name":"📦 self"}
+{"time":1551053652187,"level":20,"msg":"> 2019/02/24 18:14:12 Initializing installer GUI...","name":"📦 self"}
+{"time":1551053652187,"level":20,"msg":"> 2019/02/24 18:14:12 Using GTK UI","name":"📦 self"}
+{"time":1551053652196,"level":20,"msg":"> 2019/02/24 18:14:12 Initializing (itch) multiverse @ (/home/ricardo/.itch)","name":"📦 self"}
+{"time":1551053652196,"level":20,"msg":"> 2019/02/24 18:14:12 (/home/ricardo/.itch)(current = \"25.4.0\", ready = \"\")","name":"📦 self"}
+{"time":1551053653740,"level":20,"msg":"> 2019/02/24 18:14:13 Installed 25.4.0","name":"📦 self"}
+{"time":1551053653741,"level":20,"msg":"> 2019/02/24 18:14:13 Latest    25.4.0","name":"📦 self"}
+{"time":1551053653741,"level":20,"msg":"> 2019/02/24 18:14:13 We're up-to-date!","name":"📦 self"}
+{"time":1551053653752,"level":20,"msg":"Trying to satisfy semver constraint (^15.0.1)","name":"📦 butler"}
+{"time":1551053653752,"level":20,"msg":"GET (https://broth.itch.ovh/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1551053654235,"level":30,"msg":"Latest is (15.8.0)","name":"📦 butler"}
+{"time":1551053654235,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1551053654242,"level":20,"msg":"Present versions: 15.8.0","name":"📦 butler"}
+{"time":1551053654243,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1551053654244,"level":20,"msg":"GET (https://broth.itch.ovh/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1551053654539,"level":30,"msg":"Latest is (1.17.0)","name":"📦 itch-setup"}
+{"time":1551053654539,"level":30,"msg":"Already the active version, nothing to do","name":"📦 itch-setup"}
+{"time":1551053654543,"level":20,"msg":"Present versions: 1.17.0","name":"📦 itch-setup"}
+{"time":1551053667098,"level":30,"msg":"Regularly scheduled check for game updates...","name":"m/reac/updater"}
+{"time":1551053667102,"level":30,"msg":"Scheduling next game update check for Sun Feb 24 2019 18:41:29 GMT-0600 (CST)","name":"m/reac/updater"}
+{"time":1551053667106,"level":20,"msg":"🙏 CheckUpdate","name":"mcall"}
+{"time":1551053667159,"level":30,"msg":"Looking for updates to 0 items...","name":"m/reac/updater"}
+{"time":1551053667160,"level":30,"msg":"...for runtime 64-bit Linux","name":"m/reac/updater"}
+{"time":1551053667160,"level":30,"msg":"✓ Checked 0 entries in 3.18093ms","name":"m/reac/updater"}
+{"time":1551053671102,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551054354700,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551054383656,"level":20,"msg":"\n","name":"m/reac/web-contents"}
+{"time":1551054383656,"level":20,"msg":"=================================","name":"m/reac/web-contents"}
+{"time":1551054383656,"level":20,"msg":"navigation-entry-committed https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551054383656,"level":20,"msg":"currentIndex 2 pendingIndex -1 inPageIndex -1 inPage false","name":"m/reac/web-contents"}
+{"time":1551054383656,"level":20,"msg":"W|    about:blank","name":"m/reac/web-contents"}
+{"time":1551054383656,"level":20,"msg":"W|<   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551054383656,"level":20,"msg":"W|  > https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551054383656,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551054383656,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551054383657,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551054383657,"level":20,"msg":"S| > https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551054383657,"level":20,"msg":"History grew one, offset is 1","name":"m/reac/web-contents"}
+{"time":1551054383657,"level":20,"msg":"Assuming regular navigation happened","name":"m/reac/web-contents"}
+{"time":1551054383658,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551054383658,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551054383658,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551054383658,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551054383658,"level":20,"msg":"S| > https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551054383986,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551054384987,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551054386297,"level":20,"msg":"Got resource games/371877","name":"m/reac/web-contents"}
+{"time":1551054386301,"level":20,"msg":"🙏 Fetch.Game","name":"rcall"}
+{"time":1551054386356,"level":40,"msg":"(butlerd) no handler for notification Log (in Fetch.Game convo)","name":"butlerd/make-client"}
+{"time":1551054387991,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551054393343,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551054483275,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551054502420,"level":20,"msg":"On window.close: close to tray enabled","name":"m/reac/winds"}
+{"time":1551054622505,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551054632753,"level":20,"msg":"Navigating to itch://preferences/ ","name":"m/reac/navigation"}
+{"time":1551054632810,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551054634523,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551054648118,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551054648619,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551054649139,"level":20,"msg":"On window.close: close to tray disabled, quitting!","name":"m/reac/winds"}
+{"time":1551054649189,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1551054649190,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1551054649192,"level":30,"msg":"butlerd instance 1 has closed.","name":"🔧 setup"}
+{"time":1551141800458,"level":30,"msg":"itch@25.4.0 on electron@2.0.8 in production"}
+{"time":1551141800461,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":false,\"closeToTray\":false,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":false,\"lastSuccessfulSetupVersion\":\"25.4.0\",\"importedOldInstallLocations\":true,\"gotMinimizeNotification\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1551141800595,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":false,\"closeToTray\":false,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":false,\"lastSuccessfulSetupVersion\":\"25.4.0\",\"importedOldInstallLocations\":true,\"gotMinimizeNotification\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1551141800602,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/25.4.0 Chrome/61.0.3163.100 Electron/2.0.8 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1551141800678,"level":20,"msg":"Updating login item settings, open=false, hidden=false","name":"m/reac/open-at-login"}
+{"time":1551141800678,"level":20,"msg":"Copying /usr/share/applications/io.itch.itch.desktop => /home/ricardo/.config/autostart/io.itch.itch.desktop","name":"m/reac/open-at-login"}
+{"time":1551141800740,"level":30,"msg":"preboot ran in 146.00ms","name":"m/reac/preboot"}
+{"time":1551141800741,"level":20,"msg":"Waiting on root window to dispatch boot","name":"m/reac/winds"}
+{"time":1551141801117,"level":30,"msg":"Setup starting...","name":"🔧 setup"}
+{"time":1551141801118,"level":30,"msg":"Creating broth manager","name":"🔧 setup"}
+{"time":1551141801119,"level":30,"msg":"Ensuring broth dependencies, for startup","name":"🔧 setup"}
+{"time":1551141801121,"level":20,"msg":"Package (itch) got version prefix","name":"🔧 setup"}
+{"time":1551141801313,"level":30,"msg":"(15.8.0) is chosen and valid","name":"📦 butler"}
+{"time":1551141801313,"level":30,"msg":"Switching to (15.8.0)","name":"📦 butler"}
+{"time":1551141801315,"level":20,"msg":"Package (butler) got version prefix","name":"🔧 setup"}
+{"time":1551141801315,"level":30,"msg":"Refreshing butlerd!","name":"🔧 setup"}
+{"time":1551141801315,"level":30,"msg":"Spinning up butlerd instance 1...","name":"🔧 setup"}
+{"time":1551141801319,"level":30,"msg":"...waiting for endpoint from butlerd instance 1...","name":"🔧 setup"}
+{"time":1551141801324,"level":20,"msg":"spawning /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup :: --version","name":"📦 itch-setup"}
+{"time":1551141801345,"level":30,"msg":"...for butlerd instance 1 got endpoint 127.0.0.1:35333","name":"🔧 setup"}
+{"time":1551141801420,"level":30,"msg":"(1.17.0) is chosen and valid","name":"📦 itch-setup"}
+{"time":1551141801420,"level":30,"msg":"Switching to (1.17.0)","name":"📦 itch-setup"}
+{"time":1551141801420,"level":30,"msg":"Already set up 25.4.0 once, delaying components upgrade check","name":"🔧 setup"}
+{"time":1551141801420,"level":20,"msg":"Waiting for butler promise...","name":"🔧 setup"}
+{"time":1551141801421,"level":20,"msg":"Package (itch-setup) got version prefix","name":"🔧 setup"}
+{"time":1551141801462,"level":30,"msg":"Now speaking with butlerd instance 1, version v15.8.0, built on Jan 22 2019 @ 16:34:46, ref 502077e06dd502c395f3b6e76a9f2ceb40ff12c9, endpoint 127.0.0.1:35333","name":"🔧 setup"}
+{"time":1551141801463,"level":20,"msg":"Syncing install locations...","name":"🔧 setup"}
+{"time":1551141801464,"level":20,"msg":"🙏 Install.Locations.List","name":"mcall"}
+{"time":1551141801464,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, cancelling state...","name":"m/reac/down/driver"}
+{"time":1551141801465,"level":20,"msg":"Not cancelling, current phase is 0","name":"m/reac/down/driver-persistent-state"}
+{"time":1551141801465,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, state is cancelled...","name":"m/reac/down/driver"}
+{"time":1551141801465,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1551141801465,"level":20,"msg":"🙏 Downloads.List","name":"mcall"}
+{"time":1551141801515,"level":20,"msg":"Dispatching setup done!","name":"🔧 setup"}
+{"time":1551141801516,"level":30,"msg":"Setup done","name":"🔧 setup"}
+{"time":1551141801520,"level":20,"msg":"🙏 Fetch.Caves","name":"mcall"}
+{"time":1551141801521,"level":30,"msg":"Scanning install locations for items...","name":"m/reac/silent-location-scan"}
+{"time":1551141801522,"level":20,"msg":"🙏 Install.Locations.Scan","name":"mcall"}
+{"time":1551141801527,"level":20,"msg":"🙏 Profile.List","name":"rcall"}
+{"time":1551141801573,"level":30,"msg":"• Scanning install location /home/ricardo/.config/itch/apps...","name":"m/reac/silent-location-scan"}
+{"time":1551141801573,"level":30,"msg":"No items found","name":"m/reac/silent-location-scan"}
+{"time":1551141801578,"level":30,"msg":"Using tray image (/home/ricardo/.itch/app-25.4.0/resources/app.asar/src/static/images/tray/itch.png)"}
+{"time":1551141801590,"level":30,"msg":"Scan complete.","name":"m/reac/silent-location-scan"}
+{"time":1551141801591,"level":20,"msg":"🙏 Fetch.Caves","name":"mcall"}
+{"time":1551141801606,"level":20,"msg":"🙏 Profile.List","name":"rcall"}
+{"time":1551141801672,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551141803115,"level":30,"msg":"Attempting saved login for profile 636466","name":"m/reac/login"}
+{"time":1551141803117,"level":20,"msg":"🙏 Profile.UseSavedLogin","name":"mcall"}
+{"time":1551141803163,"level":30,"msg":"• Validating credentials...","name":"m/reac/login"}
+{"time":1551141803615,"level":20,"msg":"Downloading fresh locale file from https://locales.itch.ovh/itch/en.json","name":"m/reac/locales"}
+{"time":1551141804079,"level":20,"msg":"HTTP GET https://locales.itch.ovh/itch/en.json: 200","name":"m/reac/locales"}
+{"time":1551141804081,"level":20,"msg":"Saving fresh en locale to /home/ricardo/.config/itch/locales/en.json","name":"m/reac/locales"}
+{"time":1551141804144,"level":30,"msg":"• Logged in! (online)","name":"m/reac/login"}
+{"time":1551141804145,"level":30,"msg":"Saved login succeeded!","name":"m/reac/login"}
+{"time":1551141804146,"level":30,"msg":"Login succeeded, setting up session","name":"m/reac/login"}
+{"time":1551141804149,"level":30,"msg":"Registering itch protocol for session persist:itchio-636466","name":"m/reac/login"}
+{"time":1551141804149,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/25.4.0 Chrome/61.0.3163.100 Electron/2.0.8 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1551141804150,"level":30,"msg":"Restoring tabs...","name":"m/reac/login"}
+{"time":1551141804150,"level":20,"msg":"🙏 Profile.Data.Get","name":"mcall"}
+{"time":1551141804202,"level":30,"msg":"Dispatching login succeeded","name":"m/reac/login"}
+{"time":1551141804204,"level":30,"msg":"Fetching owned keys...","name":"m/reac/login"}
+{"time":1551141804204,"level":20,"msg":"🙏 Fetch.ProfileOwnedKeys","name":"mcall"}
+{"time":1551141804211,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551141804215,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1551141804215,"level":20,"msg":"Not paused... current phase: IDLE","name":"m/reac/down/driver"}
+{"time":1551141804215,"level":20,"msg":"IDLE => STARTING","name":"m/reac/down/driver-persistent-state"}
+{"time":1551141804216,"level":20,"msg":"🙏 Downloads.Drive","name":"mcall"}
+{"time":1551141804217,"level":20,"msg":"STARTING => RUNNING","name":"m/reac/down/driver-persistent-state"}
+{"time":1551141804217,"level":30,"msg":"Downloads started","name":"m/reac/down/driver-persistent-state"}
+{"time":1551141804262,"level":30,"msg":"Now driving downloads...","name":"m/reac/down/driver"}
+{"time":1551141804262,"level":30,"msg":"Fetching fresh data...","name":"m/reac/login"}
+{"time":1551141804262,"level":30,"msg":"Fetching page 1","name":"m/reac/login"}
+{"time":1551141804273,"level":20,"msg":"🙏 Fetch.Caves","name":"rcall"}
+{"time":1551141804374,"level":20,"msg":"🙏 Fetch.Game","name":"rcall"}
+{"time":1551141804412,"level":30,"msg":"Waited 149.967598ms for fetch (non-shared)","name":"m/reac/login"}
+{"time":1551141804413,"level":30,"msg":"Fetched owned keys in 209.00ms","name":"m/reac/login"}
+{"time":1551141804441,"level":20,"msg":"🙏 Fetch.Game","name":"rcall"}
+{"time":1551141804489,"level":40,"msg":"(butlerd) no handler for notification Log (in Fetch.Game convo)","name":"butlerd/make-client"}
+{"time":1551141804491,"level":20,"msg":"Loading url 'https://papercookies.itch.io/mobius'","name":"m/reac/web-contents"}
+{"time":1551141804709,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551141805251,"level":20,"msg":"\n","name":"m/reac/web-contents"}
+{"time":1551141805251,"level":20,"msg":"=================================","name":"m/reac/web-contents"}
+{"time":1551141805252,"level":20,"msg":"navigation-entry-committed https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551141805252,"level":20,"msg":"currentIndex 1 pendingIndex -1 inPageIndex -1 inPage false","name":"m/reac/web-contents"}
+{"time":1551141805252,"level":20,"msg":"W|<   about:blank","name":"m/reac/web-contents"}
+{"time":1551141805252,"level":20,"msg":"W|  > https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551141805253,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551141805253,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551141805253,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551141805254,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141805254,"level":20,"msg":"S| > https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551141805254,"level":20,"msg":"History grew one, offset is 1","name":"m/reac/web-contents"}
+{"time":1551141805254,"level":20,"msg":"web and state point to same URL, doing nothing","name":"m/reac/web-contents"}
+{"time":1551141805254,"level":20,"msg":"Replacing because previous web url \nabout:blank\n is not current state url \nhttps://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551141805257,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551141805257,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551141805257,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551141805257,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141805258,"level":20,"msg":"S| > https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551141806601,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551141807650,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1551141807665,"level":20,"msg":"Got resource games/371877","name":"m/reac/web-contents"}
+{"time":1551141809605,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551141815619,"level":20,"msg":"spawning /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup :: --appname ::: itch ::: --upgrade","name":"m/brot/itch-setup"}
+{"time":1551141815737,"level":20,"msg":"> 2019/02/25 18:43:35 itch-setup will log to /tmp/itch-setup-log.txt","name":"📦 self"}
+{"time":1551141815737,"level":20,"msg":"> 2019/02/25 18:43:35 =========================================","name":"📦 self"}
+{"time":1551141815737,"level":20,"msg":"> 2019/02/25 18:43:35 itch-setup \"v1.17.0, built on Feb 23 2019 @ 17:17:27, ref 8b2074fd782cd00976193c1a627f31b4e0ec2728\" starting up at \"2019-02-25 18:43:35.736517516 -0600 CST m=+0.003950648\" with arguments:","name":"📦 self"}
+{"time":1551141815737,"level":20,"msg":"> 2019/02/25 18:43:35 \"/home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup\"","name":"📦 self"}
+{"time":1551141815737,"level":20,"msg":"> 2019/02/25 18:43:35 \"--appname\"","name":"📦 self"}
+{"time":1551141815738,"level":20,"msg":"> 2019/02/25 18:43:35 \"itch\"","name":"📦 self"}
+{"time":1551141815738,"level":20,"msg":"> 2019/02/25 18:43:35 \"--upgrade\"","name":"📦 self"}
+{"time":1551141815738,"level":20,"msg":"> 2019/02/25 18:43:35 =========================================","name":"📦 self"}
+{"time":1551141815738,"level":20,"msg":"> 2019/02/25 18:43:35 App name specified on command-line: itch","name":"📦 self"}
+{"time":1551141815738,"level":20,"msg":"> 2019/02/25 18:43:35 Locale:  en-US","name":"📦 self"}
+{"time":1551141815739,"level":20,"msg":"> 2019/02/25 18:43:35 Initializing installer GUI...","name":"📦 self"}
+{"time":1551141815739,"level":20,"msg":"> 2019/02/25 18:43:35 Using GTK UI","name":"📦 self"}
+{"time":1551141815745,"level":20,"msg":"> 2019/02/25 18:43:35 Initializing (itch) multiverse @ (/home/ricardo/.itch)","name":"📦 self"}
+{"time":1551141815745,"level":20,"msg":"> 2019/02/25 18:43:35 (/home/ricardo/.itch)(current = \"25.4.0\", ready = \"\")","name":"📦 self"}
+{"time":1551141816274,"level":20,"msg":"> 2019/02/25 18:43:36 Installed 25.4.0","name":"📦 self"}
+{"time":1551141816274,"level":20,"msg":"> 2019/02/25 18:43:36 Latest    25.4.0","name":"📦 self"}
+{"time":1551141816275,"level":20,"msg":"> 2019/02/25 18:43:36 We're up-to-date!","name":"📦 self"}
+{"time":1551141816286,"level":20,"msg":"Trying to satisfy semver constraint (^15.0.1)","name":"📦 butler"}
+{"time":1551141816286,"level":20,"msg":"GET (https://broth.itch.ovh/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1551141816757,"level":30,"msg":"Latest is (15.8.0)","name":"📦 butler"}
+{"time":1551141816757,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1551141816768,"level":20,"msg":"Present versions: 15.8.0","name":"📦 butler"}
+{"time":1551141816770,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1551141816770,"level":20,"msg":"GET (https://broth.itch.ovh/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1551141817125,"level":30,"msg":"Latest is (1.17.0)","name":"📦 itch-setup"}
+{"time":1551141817126,"level":30,"msg":"Already the active version, nothing to do","name":"📦 itch-setup"}
+{"time":1551141817129,"level":20,"msg":"Present versions: 1.17.0","name":"📦 itch-setup"}
+{"time":1551141830630,"level":30,"msg":"Regularly scheduled check for game updates...","name":"m/reac/updater"}
+{"time":1551141830632,"level":30,"msg":"Scheduling next game update check for Mon Feb 25 2019 19:06:52 GMT-0600 (CST)","name":"m/reac/updater"}
+{"time":1551141830635,"level":20,"msg":"🙏 CheckUpdate","name":"mcall"}
+{"time":1551141830689,"level":30,"msg":"Looking for updates to 0 items...","name":"m/reac/updater"}
+{"time":1551141830689,"level":30,"msg":"...for runtime 64-bit Linux","name":"m/reac/updater"}
+{"time":1551141830690,"level":30,"msg":"✓ Checked 0 entries in 3.244071ms","name":"m/reac/updater"}
+{"time":1551141839404,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1551141842817,"level":20,"msg":"Navigating to itch://featured/ ","name":"m/reac/navigation"}
+{"time":1551141842823,"level":20,"msg":"WebContents has\n--> https://papercookies.itch.io/mobius\ntab evolved to\n--> itch://featured/\nlet's load","name":"m/reac/web-contents"}
+{"time":1551141842837,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1551141842840,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1551141842980,"level":20,"msg":"Loading url 'https://itch.io'","name":"m/reac/web-contents"}
+{"time":1551141844064,"level":20,"msg":"\n","name":"m/reac/web-contents"}
+{"time":1551141844065,"level":20,"msg":"=================================","name":"m/reac/web-contents"}
+{"time":1551141844065,"level":20,"msg":"navigation-entry-committed https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141844065,"level":20,"msg":"currentIndex 1 pendingIndex -1 inPageIndex -1 inPage false","name":"m/reac/web-contents"}
+{"time":1551141844065,"level":20,"msg":"W|<   about:blank","name":"m/reac/web-contents"}
+{"time":1551141844066,"level":20,"msg":"W|  > https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141844066,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551141844066,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551141844066,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551141844066,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141844067,"level":20,"msg":"S|   https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551141844067,"level":20,"msg":"S| > https://itch.io","name":"m/reac/web-contents"}
+{"time":1551141844067,"level":20,"msg":"pushing webContents title https://itch.io","name":"m/reac/web-contents"}
+{"time":1551141844068,"level":20,"msg":"History grew one, offset is 1","name":"m/reac/web-contents"}
+{"time":1551141844068,"level":20,"msg":"Replacing because previous web url \nabout:blank\n is not current state url \nhttps://itch.io","name":"m/reac/web-contents"}
+{"time":1551141844070,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551141844070,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551141844070,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551141844070,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141844070,"level":20,"msg":"S|   https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551141844070,"level":20,"msg":"S| > https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141844652,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551141845437,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1551141845661,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551141846667,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551141858679,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551141885830,"level":20,"msg":"\n","name":"m/reac/web-contents"}
+{"time":1551141885830,"level":20,"msg":"=================================","name":"m/reac/web-contents"}
+{"time":1551141885830,"level":20,"msg":"navigation-entry-committed https://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1551141885831,"level":20,"msg":"currentIndex 2 pendingIndex -1 inPageIndex -1 inPage false","name":"m/reac/web-contents"}
+{"time":1551141885831,"level":20,"msg":"W|    about:blank","name":"m/reac/web-contents"}
+{"time":1551141885831,"level":20,"msg":"W|<   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141885831,"level":20,"msg":"W|  > https://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1551141885831,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551141885831,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551141885832,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551141885832,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141885832,"level":20,"msg":"S|   https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551141885832,"level":20,"msg":"S| > https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141885832,"level":20,"msg":"History grew one, offset is 1","name":"m/reac/web-contents"}
+{"time":1551141885832,"level":20,"msg":"Assuming regular navigation happened","name":"m/reac/web-contents"}
+{"time":1551141885834,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1551141885835,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1551141885835,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1551141885835,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141885835,"level":20,"msg":"S|   https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1551141885835,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1551141885835,"level":20,"msg":"S| > https://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1551141886728,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551141887731,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551141889311,"level":20,"msg":"Got resource games/249121","name":"m/reac/web-contents"}
+{"time":1551141889323,"level":20,"msg":"🙏 Fetch.Game","name":"rcall"}
+{"time":1551141889380,"level":40,"msg":"(butlerd) no handler for notification Log (in Fetch.Game convo)","name":"butlerd/make-client"}
+{"time":1551141890735,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1551141906106,"level":20,"msg":"On window.close: close to tray disabled, quitting!","name":"m/reac/winds"}
+{"time":1551141906153,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1551141906153,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1551141906155,"level":30,"msg":"butlerd instance 1 has closed.","name":"🔧 setup"}
+{"time":1551141906155,"level":50,"msg":"Caught butler error:","name":"mcall"}
+{"time":1552359614148,"level":30,"msg":"itch@25.4.0 on electron@2.0.8 in production"}
+{"time":1552359614151,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":false,\"closeToTray\":false,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":false,\"lastSuccessfulSetupVersion\":\"25.4.0\",\"importedOldInstallLocations\":true,\"gotMinimizeNotification\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1552359614283,"level":20,"msg":"imported preferences: {\"downloadSelfUpdates\":true,\"offlineMode\":false,\"installLocations\":{},\"defaultInstallLocation\":\"appdata\",\"isolateApps\":false,\"closeToTray\":false,\"readyNotification\":true,\"showAdvanced\":false,\"openAtLogin\":false,\"openAsHidden\":false,\"manualGameUpdates\":false,\"preventDisplaySleep\":true,\"preferOptimizedPatches\":false,\"disableBrowser\":false,\"enableTabs\":false,\"lastSuccessfulSetupVersion\":\"25.4.0\",\"importedOldInstallLocations\":true,\"gotMinimizeNotification\":true}","name":"m/reac/preb/load-preferences"}
+{"time":1552359614291,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/25.4.0 Chrome/61.0.3163.100 Electron/2.0.8 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1552359614341,"level":20,"msg":"Updating login item settings, open=false, hidden=false","name":"m/reac/open-at-login"}
+{"time":1552359614341,"level":20,"msg":"Copying /usr/share/applications/io.itch.itch.desktop => /home/ricardo/.config/autostart/io.itch.itch.desktop","name":"m/reac/open-at-login"}
+{"time":1552359614401,"level":30,"msg":"preboot ran in 118.00ms","name":"m/reac/preboot"}
+{"time":1552359614403,"level":20,"msg":"Waiting on root window to dispatch boot","name":"m/reac/winds"}
+{"time":1552359614767,"level":30,"msg":"Setup starting...","name":"🔧 setup"}
+{"time":1552359614768,"level":30,"msg":"Creating broth manager","name":"🔧 setup"}
+{"time":1552359614769,"level":30,"msg":"Ensuring broth dependencies, for startup","name":"🔧 setup"}
+{"time":1552359614771,"level":20,"msg":"Package (itch) got version prefix","name":"🔧 setup"}
+{"time":1552359614990,"level":30,"msg":"(15.8.0) is chosen and valid","name":"📦 butler"}
+{"time":1552359614990,"level":30,"msg":"Switching to (15.8.0)","name":"📦 butler"}
+{"time":1552359614992,"level":20,"msg":"Package (butler) got version prefix","name":"🔧 setup"}
+{"time":1552359614992,"level":30,"msg":"Refreshing butlerd!","name":"🔧 setup"}
+{"time":1552359614992,"level":30,"msg":"Spinning up butlerd instance 1...","name":"🔧 setup"}
+{"time":1552359615001,"level":30,"msg":"...waiting for endpoint from butlerd instance 1...","name":"🔧 setup"}
+{"time":1552359615011,"level":20,"msg":"spawning /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup :: --version","name":"📦 itch-setup"}
+{"time":1552359615052,"level":30,"msg":"...for butlerd instance 1 got endpoint 127.0.0.1:45451","name":"🔧 setup"}
+{"time":1552359615124,"level":30,"msg":"(1.17.0) is chosen and valid","name":"📦 itch-setup"}
+{"time":1552359615124,"level":30,"msg":"Switching to (1.17.0)","name":"📦 itch-setup"}
+{"time":1552359615125,"level":30,"msg":"Already set up 25.4.0 once, delaying components upgrade check","name":"🔧 setup"}
+{"time":1552359615125,"level":20,"msg":"Waiting for butler promise...","name":"🔧 setup"}
+{"time":1552359615125,"level":20,"msg":"Package (itch-setup) got version prefix","name":"🔧 setup"}
+{"time":1552359615172,"level":30,"msg":"Now speaking with butlerd instance 1, version v15.8.0, built on Jan 22 2019 @ 16:34:46, ref 502077e06dd502c395f3b6e76a9f2ceb40ff12c9, endpoint 127.0.0.1:45451","name":"🔧 setup"}
+{"time":1552359615173,"level":20,"msg":"Syncing install locations...","name":"🔧 setup"}
+{"time":1552359615174,"level":20,"msg":"🙏 Install.Locations.List","name":"mcall"}
+{"time":1552359615175,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, cancelling state...","name":"m/reac/down/driver"}
+{"time":1552359615175,"level":20,"msg":"Not cancelling, current phase is 0","name":"m/reac/down/driver-persistent-state"}
+{"time":1552359615176,"level":20,"msg":"Downloads driver reacting to gotButlerdEndpoint, state is cancelled...","name":"m/reac/down/driver"}
+{"time":1552359615176,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1552359615176,"level":20,"msg":"🙏 Downloads.List","name":"mcall"}
+{"time":1552359615223,"level":20,"msg":"Dispatching setup done!","name":"🔧 setup"}
+{"time":1552359615225,"level":30,"msg":"Setup done","name":"🔧 setup"}
+{"time":1552359615228,"level":20,"msg":"🙏 Fetch.Caves","name":"mcall"}
+{"time":1552359615229,"level":30,"msg":"Scanning install locations for items...","name":"m/reac/silent-location-scan"}
+{"time":1552359615230,"level":20,"msg":"🙏 Install.Locations.Scan","name":"mcall"}
+{"time":1552359615235,"level":20,"msg":"🙏 Profile.List","name":"rcall"}
+{"time":1552359615285,"level":30,"msg":"Using tray image (/home/ricardo/.itch/app-25.4.0/resources/app.asar/src/static/images/tray/itch.png)"}
+{"time":1552359615298,"level":30,"msg":"• Scanning install location /home/ricardo/.config/itch/apps...","name":"m/reac/silent-location-scan"}
+{"time":1552359615298,"level":30,"msg":"No items found","name":"m/reac/silent-location-scan"}
+{"time":1552359615298,"level":30,"msg":"Scan complete.","name":"m/reac/silent-location-scan"}
+{"time":1552359615308,"level":20,"msg":"🙏 Fetch.Caves","name":"mcall"}
+{"time":1552359615315,"level":20,"msg":"🙏 Profile.List","name":"rcall"}
+{"time":1552359615339,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1552359617078,"level":30,"msg":"Attempting saved login for profile 636466","name":"m/reac/login"}
+{"time":1552359617081,"level":20,"msg":"🙏 Profile.UseSavedLogin","name":"mcall"}
+{"time":1552359617133,"level":30,"msg":"• Validating credentials...","name":"m/reac/login"}
+{"time":1552359617329,"level":20,"msg":"Downloading fresh locale file from https://locales.itch.ovh/itch/en.json","name":"m/reac/locales"}
+{"time":1552359617790,"level":20,"msg":"HTTP GET https://locales.itch.ovh/itch/en.json: 200","name":"m/reac/locales"}
+{"time":1552359617792,"level":20,"msg":"Saving fresh en locale to /home/ricardo/.config/itch/locales/en.json","name":"m/reac/locales"}
+{"time":1552359618059,"level":30,"msg":"• Logged in! (online)","name":"m/reac/login"}
+{"time":1552359618060,"level":30,"msg":"Saved login succeeded!","name":"m/reac/login"}
+{"time":1552359618061,"level":30,"msg":"Login succeeded, setting up session","name":"m/reac/login"}
+{"time":1552359618063,"level":30,"msg":"Registering itch protocol for session persist:itchio-636466","name":"m/reac/login"}
+{"time":1552359618064,"level":20,"msg":"Registering itch: protocol for session with user agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) itch/25.4.0 Chrome/61.0.3163.100 Electron/2.0.8 Safari/537.36","name":"m/net/register-itch-protocol"}
+{"time":1552359618064,"level":30,"msg":"Restoring tabs...","name":"m/reac/login"}
+{"time":1552359618066,"level":20,"msg":"🙏 Profile.Data.Get","name":"mcall"}
+{"time":1552359618118,"level":30,"msg":"Dispatching login succeeded","name":"m/reac/login"}
+{"time":1552359618119,"level":30,"msg":"Fetching owned keys...","name":"m/reac/login"}
+{"time":1552359618120,"level":20,"msg":"🙏 Fetch.ProfileOwnedKeys","name":"mcall"}
+{"time":1552359618126,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1552359618130,"level":20,"msg":"Download driver polling...","name":"m/reac/down/driver"}
+{"time":1552359618131,"level":20,"msg":"Not paused... current phase: IDLE","name":"m/reac/down/driver"}
+{"time":1552359618131,"level":20,"msg":"IDLE => STARTING","name":"m/reac/down/driver-persistent-state"}
+{"time":1552359618132,"level":20,"msg":"🙏 Downloads.Drive","name":"mcall"}
+{"time":1552359618134,"level":20,"msg":"STARTING => RUNNING","name":"m/reac/down/driver-persistent-state"}
+{"time":1552359618134,"level":30,"msg":"Downloads started","name":"m/reac/down/driver-persistent-state"}
+{"time":1552359618178,"level":30,"msg":"Fetching fresh data...","name":"m/reac/login"}
+{"time":1552359618179,"level":30,"msg":"Fetching page 1","name":"m/reac/login"}
+{"time":1552359618181,"level":30,"msg":"Now driving downloads...","name":"m/reac/down/driver"}
+{"time":1552359618187,"level":20,"msg":"🙏 Fetch.Caves","name":"rcall"}
+{"time":1552359618288,"level":20,"msg":"🙏 Fetch.Game","name":"rcall"}
+{"time":1552359618353,"level":20,"msg":"🙏 Fetch.Game","name":"rcall"}
+{"time":1552359618362,"level":30,"msg":"Waited 183.513294ms for fetch (non-shared)","name":"m/reac/login"}
+{"time":1552359618362,"level":30,"msg":"Fetched owned keys in 242.00ms","name":"m/reac/login"}
+{"time":1552359618399,"level":40,"msg":"(butlerd) no handler for notification Log (in Fetch.Game convo)","name":"butlerd/make-client"}
+{"time":1552359618410,"level":20,"msg":"Loading url 'https://zephyo.itch.io/you-left-me'","name":"m/reac/web-contents"}
+{"time":1552359618625,"level":20,"msg":"🙏 Fetch.Commons","name":"mcall"}
+{"time":1552359619190,"level":20,"msg":"\n","name":"m/reac/web-contents"}
+{"time":1552359619191,"level":20,"msg":"=================================","name":"m/reac/web-contents"}
+{"time":1552359619191,"level":20,"msg":"navigation-entry-committed https://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1552359619191,"level":20,"msg":"currentIndex 1 pendingIndex -1 inPageIndex -1 inPage false","name":"m/reac/web-contents"}
+{"time":1552359619192,"level":20,"msg":"W|<   about:blank","name":"m/reac/web-contents"}
+{"time":1552359619192,"level":20,"msg":"W|  > https://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1552359619192,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1552359619193,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1552359619193,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1552359619193,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1552359619193,"level":20,"msg":"S|   https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1552359619193,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1552359619193,"level":20,"msg":"S| > https://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1552359619193,"level":20,"msg":"History grew one, offset is 1","name":"m/reac/web-contents"}
+{"time":1552359619193,"level":20,"msg":"web and state point to same URL, doing nothing","name":"m/reac/web-contents"}
+{"time":1552359619194,"level":20,"msg":"Replacing because previous web url \nabout:blank\n is not current state url \nhttps://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1552359619196,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1552359619196,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1552359619196,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1552359619196,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1552359619196,"level":20,"msg":"S|   https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1552359619196,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1552359619196,"level":20,"msg":"S| > https://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1552359620305,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1552359623873,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1552359623879,"level":20,"msg":"Got resource games/249121","name":"m/reac/web-contents"}
+{"time":1552359625314,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1552359626078,"level":20,"msg":"🙏 Search.Games","name":"rcall"}
+{"time":1552359627161,"level":20,"msg":"Navigating to itch://games/63677 ","name":"m/reac/navigation"}
+{"time":1552359627163,"level":20,"msg":"WebContents has\n--> https://zephyo.itch.io/you-left-me\ntab evolved to\n--> itch://games/63677\nlet's load","name":"m/reac/web-contents"}
+{"time":1552359627170,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1552359627170,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1552359627180,"level":20,"msg":"🙏 Fetch.Game","name":"rcall"}
+{"time":1552359627222,"level":40,"msg":"(butlerd) no handler for notification Log (in Fetch.Game convo)","name":"butlerd/make-client"}
+{"time":1552359627537,"level":20,"msg":"🙏 Fetch.Game","name":"rcall"}
+{"time":1552359627657,"level":20,"msg":"Loading url 'https://ngx.itch.io/doomdoomii'","name":"m/reac/web-contents"}
+{"time":1552359628318,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1552359628419,"level":20,"msg":"\n","name":"m/reac/web-contents"}
+{"time":1552359628420,"level":20,"msg":"=================================","name":"m/reac/web-contents"}
+{"time":1552359628420,"level":20,"msg":"navigation-entry-committed https://ngx.itch.io/doomdoomii","name":"m/reac/web-contents"}
+{"time":1552359628420,"level":20,"msg":"currentIndex 1 pendingIndex -1 inPageIndex -1 inPage false","name":"m/reac/web-contents"}
+{"time":1552359628420,"level":20,"msg":"W|<   about:blank","name":"m/reac/web-contents"}
+{"time":1552359628420,"level":20,"msg":"W|  > https://ngx.itch.io/doomdoomii","name":"m/reac/web-contents"}
+{"time":1552359628421,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1552359628421,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1552359628421,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1552359628421,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1552359628422,"level":20,"msg":"S|   https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1552359628422,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1552359628422,"level":20,"msg":"S|   https://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1552359628422,"level":20,"msg":"S| > https://ngx.itch.io/doomdoomii","name":"m/reac/web-contents"}
+{"time":1552359628422,"level":20,"msg":"History grew one, offset is 1","name":"m/reac/web-contents"}
+{"time":1552359628423,"level":20,"msg":"web and state point to same URL, doing nothing","name":"m/reac/web-contents"}
+{"time":1552359628423,"level":20,"msg":"Replacing because previous web url \nabout:blank\n is not current state url \nhttps://ngx.itch.io/doomdoomii","name":"m/reac/web-contents"}
+{"time":1552359628425,"level":20,"msg":"---------------------------------","name":"m/reac/web-contents"}
+{"time":1552359628425,"level":20,"msg":"S|   itch://library","name":"m/reac/web-contents"}
+{"time":1552359628425,"level":20,"msg":"S|   itch://library/owned","name":"m/reac/web-contents"}
+{"time":1552359628425,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1552359628425,"level":20,"msg":"S|   https://papercookies.itch.io/mobius","name":"m/reac/web-contents"}
+{"time":1552359628425,"level":20,"msg":"S|   https://itch.io/","name":"m/reac/web-contents"}
+{"time":1552359628425,"level":20,"msg":"S|   https://zephyo.itch.io/you-left-me","name":"m/reac/web-contents"}
+{"time":1552359628425,"level":20,"msg":"S| > https://ngx.itch.io/doomdoomii","name":"m/reac/web-contents"}
+{"time":1552359628978,"level":20,"msg":"did-finish-load (once)","name":"m/reac/web-contents"}
+{"time":1552359628982,"level":20,"msg":"Got resource games/63677","name":"m/reac/web-contents"}
+{"time":1552359629326,"level":20,"msg":"spawning /home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup :: --appname ::: itch ::: --upgrade","name":"m/brot/itch-setup"}
+{"time":1552359629349,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 itch-setup will log to /tmp/itch-setup-log.txt","name":"📦 self"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 =========================================","name":"📦 self"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 itch-setup \"v1.17.0, built on Feb 23 2019 @ 17:17:27, ref 8b2074fd782cd00976193c1a627f31b4e0ec2728\" starting up at \"2019-03-11 21:00:29.444448198 -0600 CST m=+0.002675660\" with arguments:","name":"📦 self"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 \"/home/ricardo/.config/itch/broth/itch-setup/versions/1.17.0/itch-setup\"","name":"📦 self"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 \"--appname\"","name":"📦 self"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 \"itch\"","name":"📦 self"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 \"--upgrade\"","name":"📦 self"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 =========================================","name":"📦 self"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 App name specified on command-line: itch","name":"📦 self"}
+{"time":1552359629445,"level":20,"msg":"> 2019/03/11 21:00:29 Locale:  en-US","name":"📦 self"}
+{"time":1552359629446,"level":20,"msg":"> 2019/03/11 21:00:29 Initializing installer GUI...","name":"📦 self"}
+{"time":1552359629446,"level":20,"msg":"> 2019/03/11 21:00:29 Using GTK UI","name":"📦 self"}
+{"time":1552359629451,"level":20,"msg":"> 2019/03/11 21:00:29 Initializing (itch) multiverse @ (/home/ricardo/.itch)","name":"📦 self"}
+{"time":1552359629451,"level":20,"msg":"> 2019/03/11 21:00:29 (/home/ricardo/.itch)(current = \"25.4.0\", ready = \"\")","name":"📦 self"}
+{"time":1552359629914,"level":20,"msg":"> 2019/03/11 21:00:29 Installed 25.4.0","name":"📦 self"}
+{"time":1552359629914,"level":20,"msg":"> 2019/03/11 21:00:29 Latest    25.4.0","name":"📦 self"}
+{"time":1552359629915,"level":20,"msg":"> 2019/03/11 21:00:29 We're up-to-date!","name":"📦 self"}
+{"time":1552359629927,"level":20,"msg":"Trying to satisfy semver constraint (^15.0.1)","name":"📦 butler"}
+{"time":1552359629928,"level":20,"msg":"GET (https://broth.itch.ovh/butler/linux-amd64/versions)","name":"📦 butler"}
+{"time":1552359630348,"level":20,"msg":"🙏 Profile.Data.Put","name":"mcall"}
+{"time":1552359630367,"level":30,"msg":"Latest is (15.8.0)","name":"📦 butler"}
+{"time":1552359630368,"level":30,"msg":"Already the active version, nothing to do","name":"📦 butler"}
+{"time":1552359630379,"level":20,"msg":"Present versions: 15.8.0","name":"📦 butler"}
+{"time":1552359630381,"level":20,"msg":"Trying to satisfy semver constraint (^1.8.0)","name":"📦 itch-setup"}
+{"time":1552359630381,"level":20,"msg":"GET (https://broth.itch.ovh/itch-setup/linux-amd64/versions)","name":"📦 itch-setup"}
+{"time":1552359630653,"level":30,"msg":"Latest is (1.17.0)","name":"📦 itch-setup"}
+{"time":1552359630653,"level":30,"msg":"Already the active version, nothing to do","name":"📦 itch-setup"}
+{"time":1552359630657,"level":20,"msg":"Present versions: 1.17.0","name":"📦 itch-setup"}
+{"time":1552359644351,"level":30,"msg":"Regularly scheduled check for game updates...","name":"m/reac/updater"}
+{"time":1552359644356,"level":30,"msg":"Scheduling next game update check for Mon Mar 11 2019 21:21:28 GMT-0600 (CST)","name":"m/reac/updater"}
+{"time":1552359644359,"level":20,"msg":"🙏 CheckUpdate","name":"mcall"}
+{"time":1552359644406,"level":30,"msg":"Looking for updates to 0 items...","name":"m/reac/updater"}
+{"time":1552359644406,"level":30,"msg":"...for runtime 64-bit Linux","name":"m/reac/updater"}
+{"time":1552359644407,"level":30,"msg":"✓ Checked 0 entries in 3.771815ms","name":"m/reac/updater"}
+{"time":1552359664040,"level":20,"msg":"On window.close: close to tray disabled, quitting!","name":"m/reac/winds"}
+{"time":1552359664102,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1552359664103,"level":20,"msg":"Tab initial-tab losing web contents!","name":"m/reac/web-contents"}
+{"time":1552359664108,"level":50,"msg":"Caught butler error:","name":"mcall"}
+{"time":1552359664116,"level":50,"msg":"JavaScript stack: Error: JSON-RPC conversation cancelled\n    at Conversation.cancel (/home/ricardo/.itch/app-25.4.0/resources/app.asar/dist/main/main.bundle.js:21649:24)\n    at Conversation.close (/home/ricardo/.itch/app-25.4.0/resources/app.asar/dist/main/main.bundle.js:21657:14)\n    at Socket.sock.on (/home/ricardo/.itch/app-25.4.0/resources/app.asar/dist/main/main.bundle.js:21441:22)\n    at emitOne (events.js:116:13)\n    at Socket.emit (events.js:211:7)\n    at TCP._handle.close [as _onclose] (net.js:554:12)","name":"mcall"}
+{"time":1552359664116,"level":50,"msg":"Error: JSON-RPC conversation cancelled\n    at Conversation.cancel (/home/ricardo/.itch/app-25.4.0/resources/app.asar/dist/main/main.bundle.js:21649:24)\n    at Conversation.close (/home/ricardo/.itch/app-25.4.0/resources/app.asar/dist/main/main.bundle.js:21657:14)\n    at Socket.sock.on (/home/ricardo/.itch/app-25.4.0/resources/app.asar/dist/main/main.bundle.js:21441:22)\n    at emitOne (events.js:116:13)\n    at Socket.emit (events.js:211:7)\n    at TCP._handle.close [as _onclose] (net.js:554:12)","name":"m/reac/down/driver"}
